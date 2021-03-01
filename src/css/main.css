@@ -12,6 +12,11 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  text-decoration: none;
+  color: initial;
+}
+
 .header {
   display: block;
   margin: 0 auto;
@@ -94,4 +99,68 @@ html {
   object-fit: cover;
   width: inherit;
   height: inherit;
+}
+
+.projects {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.title p {
+  font-size: 1.6rem;
+  margin: 15px 0;
+}
+
+.projects__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  font-size: 1.4rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.project__characteristics {
+  margin: 20px 0;
+}
+
+.project__characteristics p {
+  margin: 5px 0;
+}
+
+.technology {
+  display: inline-block;
+  padding: 5px 8px;
+  border: 1px solid black;
+  margin: 0 5px;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+
+.courses__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 30px 0;
+}
+
+.courses__list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.courses__list img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
 }
