@@ -5,9 +5,93 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
   font-size: 62.5%;
+}
+
+.header {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.header__logo {
+  display: block;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.main {
+  margin-top: 50px;
+  padding: 0 15px;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.introduction__title {
+  font-size: 3.5rem;
+}
+
+.introduction__subtitle {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.introduction__description {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  opacity: 0.6;
+}
+
+.introduction__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #ee786c;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.introduction__button:hover {
+  opacity: 0.6;
+}
+
+.characteristics {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  justify-content: center;
+}
+
+.characteristic {
+  display: block;
+  width: 40%;
+  margin: 2rem 0;
+  transition: all 0.3s;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.image img {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
 }
