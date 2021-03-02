@@ -14,7 +14,7 @@ html {
 
 a {
   text-decoration: none;
-  color: initial;
+  color: #00acee;
 }
 
 .header {
@@ -124,6 +124,12 @@ a {
   text-align: center;
 }
 
+.project__image img {
+  object-fit: contain;
+  height: 300px;
+  width: 320px;
+}
+
 .title h2 {
   font-size: 2rem;
   margin: 15px 0;
@@ -211,6 +217,10 @@ a {
 
 .twitter {
   color: #00acee;
+}
+
+.github {
+  color: black;
 }
 
 .linkedin {
