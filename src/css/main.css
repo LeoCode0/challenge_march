@@ -21,6 +21,7 @@ a {
   display: block;
   margin: 0 auto;
   width: max-content;
+  cursor: default;
 }
 
 .header__logo {
@@ -33,6 +34,8 @@ a {
 .main {
   margin-top: 50px;
   padding: 0 15px;
+  max-width: 400px;
+  margin: 50px auto 0;
 }
 
 .introduction {
@@ -52,6 +55,22 @@ a {
   margin-top: 15px;
   font-size: 1.4rem;
   opacity: 0.6;
+}
+
+.characteristic__icon {
+  font-size: 3rem;
+}
+
+.brain {
+  color: #d9a5b2;
+}
+
+.tools {
+  color: #535654;
+}
+
+.battery {
+  color: rgb(124, 124, 29);
 }
 
 .introduction__button {
@@ -163,4 +182,126 @@ a {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  margin: 40px auto 0;
+  max-width: 400px;
+  font-size: 1.4rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.footer__social {
+  display: flex;
+  width: 300px;
+  margin: 20px auto;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer__social i {
+  margin-right: 5px;
+  font-size: 2rem;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    max-width: 1440px;
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+  }
+
+  .introduction {
+    width: 50%;
+  }
+
+  .introduction__title {
+    font-size: 6rem;
+  }
+
+  .introduction__subtitle {
+    font-size: 4rem;
+  }
+
+  .introduction__description {
+    font-size: 1.6rem;
+  }
+
+  .characteristics {
+    flex-wrap: nowrap;
+  }
+
+  .characteristic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 150px;
+    font-size: 1.8rem;
+  }
+
+  .characteristic p {
+    margin: 20px 0;
+  }
+
+  .image {
+    height: 600px;
+  }
+
+  .introduction {
+    text-align: initial;
+  }
+
+  .introduction__button {
+    margin: 30px 0;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .project {
+    max-width: 300px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+  }
+
+  .footer {
+    max-width: 1440px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__information {
+    margin: 0 auto;
+    width: 40%;
+  }
+
+  .footer__social {
+    height: 40px;
+  }
 }
